@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>Prism Pulse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/face-api.min.js" defer></script>
+    <script defer src="js/main.js"></script>
+    
+</head>
+<body>
+    <div id="js--videoContainer" class="videoContainer">
+        <video id="js--video" height="460" width="620" autoplay muted></video>
+    </div>
+    <div id="js--picture" class="picture">
+        <h2 id="js--countdown" class="countdown">SMILE!</h2>
+        <img id="js--photo" src="img/catsmiling.jpg" alt="" class="photo">
+        <form id="imgForm" action="imagetodb.php" method="POST">
+            <input type="file" accept=".png" id="image" name="image" value="">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(233, 233, 233);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoContainer{
+    width: 620px;
+    height: 460px;
+    position: relative;
+}
+
+video{
+    position: absolute;
+}
+
+canvas{
+    position: absolute;
+}
+
+.picture{
+    width: 520px;
+    height:460px;
+    object-fit:fill;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #c5e4e9;
+}
+.photo{
+    width: 100%;
+    height: auto;
+}
+
+.countdown{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
